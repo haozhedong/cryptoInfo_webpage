@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>History: Everything about Cryptocurrency</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/history.css">
+    <script src="assets/js/text.js"></script>
+  </head>
+  
+  <body> <!-- body start: anything in body will be rendered on page -->
+    <header class="bg-danger text-white">
+      <div class="adjust-text-container">
+        <label for="fontSizeSlider" class="form-label me-2 mb-0" style="margin-right: 10px;">Font Size</label>
+        <input type="range" class="form-range" id="fontSizeSlider" min="10" max="40" value="16" oninput="adjustFontSize()" style="width: 100px; margin-right: 10px;">
+        <button type="button" class="btn btn-danger" style="border: 1px solid black;" onclick="changeToDark()">Dark Mode</button>
+        <button type="button" class="btn btn-danger" style="border: 1px solid black;" onclick="resetFontSize()">Reset</button>
+      </div>
+      <div class="d-flex justify-content-between align-items-center">
+          <img src="pictures/logo.png" alt="website logo" id="logo" class="img-fluid" >
+          <nav class="navbar navbar-expand-md">
+            <ul class="navbar-nav">
+              <li class="nav-item content"><a class="nav-link text-white nav-font" href="index.html">Home</a></li>
+              <li class="nav-item content"><a class="nav-link text-white nav-font" href="history.html">History</a></li>
+              <li class="nav-item content"><a class="nav-link text-white nav-font" href="types.html">Types</a></li>
+              <li class="nav-item content"><a class="nav-link text-white nav-font" href="market.html">Market</a></li>
+              <li class="nav-item content"><a class="nav-link text-white nav-font" href="mailto:haozhedong7@gmail.com">Contact</a></li>
+            </ul>
+          </nav>
+      </div>
+    </header>
+
+    <main class="container mt-5 content">
+      <h1 class="text-center display-4">History</h1>
+      <section class="timeline">
+    
+        <div class="timeline-item row my-4">
+          <div class="timeline-year">2000s</div>
+          <div class="timeline-content col-12 col-md-9">
+            <img src="pictures/2000s.jpg" alt="2000s Image: first time people paid bitcoin for another good" class="img-fluid mb-3">
+            <p>The 2000s marked the inception of cryptocurrency with the creation of Bitcoin by an unknown person or group using the pseudonym Satoshi Nakamoto. In 2008, the Bitcoin whitepaper was published, outlining a peer-to-peer electronic cash system. The first real-world transaction using Bitcoin occurred in 2010 when a programmer named Laszlo Hanyecz famously paid 10,000 BTC for two pizzas, now celebrated as Bitcoin Pizza Day. This decade laid the foundational technology and principles for what would become a revolutionary financial system.</p>
+          </div>
+        </div>
+    
+        <div class="timeline-item row my-4">
+          <div class="timeline-year">2010s</div>
+          <div class="timeline-content col-12 col-md-9">
+            <p>The 2010s witnessed significant growth and diversification in the cryptocurrency space. Bitcoin gained mainstream attention and saw its value skyrocket, peaking at nearly $20,000 by the end of 2017. This decade also introduced numerous altcoins like Ethereum, which brought smart contracts to the forefront, enabling decentralized applications. The rise of initial coin offerings (ICOs) provided a new method for startups to raise capital, though it also led to increased regulatory scrutiny due to scams and fraudulent schemes. Overall, the 2010s were characterized by rapid innovation, adoption, and the emergence of a complex cryptocurrency ecosystem.</p>
+          </div>
+        </div>
+    
+        <div class="timeline-item row my-4">
+          <div class="timeline-year">2020s</div>
+          <div class="timeline-content col-12 col-md-9">
+            <img src="pictures/2020s.jpg" alt="2020s Image: The naming rights to the Staples Center had been acquired by Crypto.com" class="img-fluid mb-3">
+            <p>The 2020s have seen cryptocurrency becoming more integrated into mainstream society and financial systems. One of the most notable events was the renaming of the Staples Center, home of the Los Angeles Lakers, to the Crypto.com Arena in 2021, highlighting the growing influence of crypto companies in traditional industries. Central banks began exploring digital currencies, and major corporations like Tesla and PayPal started accepting Bitcoin and other cryptocurrencies for transactions. Additionally, decentralized finance (DeFi) and non-fungible tokens (NFTs) gained popularity, further expanding the use cases and acceptance of digital assets. The 2020s continue to be a decade of significant milestones and broader acceptance for cryptocurrency.</p>
+          </div>
+        </div>
+      </section>
+      <a href="#" class="back-to-top">Top</a>
+    </main>
+
+  </body>
+</html>

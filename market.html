@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Market: Everything about Cryptocurrency</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/market.css">
+    <script src="assets/js/text.js"></script>
+  </head>
+  
+  <body> <!-- body start: anything in body will be rendered on page -->
+    <header class="bg-danger text-white">
+      <div class="adjust-text-container">
+        <label for="fontSizeSlider" class="form-label me-2 mb-0" style="margin-right: 10px;">Font Size</label>
+        <input type="range" class="form-range" id="fontSizeSlider" min="10" max="50" value="16" oninput="adjustFontSize()" style="width: 100px; margin-right: 10px;">
+        <button type="button" class="btn btn-danger" style="border: 1px solid black;" onclick="changeToDark()">Dark Mode</button>
+        <button type="button" class="btn btn-danger" style="border: 1px solid black;" onclick="resetFontSize()">Reset</button>
+      </div>
+      <div class="d-flex justify-content-between align-items-center">
+          <img src="pictures/logo.png" alt="website logo" id="logo" class="img-fluid" >
+          <nav class="navbar navbar-expand-md">
+            <ul class="navbar-nav">
+              <li class="nav-item content"><a class="nav-link text-white nav-font" href="index.html">Home</a></li>
+              <li class="nav-item content"><a class="nav-link text-white nav-font" href="history.html">History</a></li>
+              <li class="nav-item content"><a class="nav-link text-white nav-font" href="types.html">Types</a></li>
+              <li class="nav-item content"><a class="nav-link text-white nav-font" href="market.html">Market</a></li>
+              <li class="nav-item content"><a class="nav-link text-white nav-font" href="mailto:haozhedong7@gmail.com">Contact</a></li>
+            </ul>
+          </nav>
+      </div>
+    </header>
+
+    <main class="container mt-5 content">
+      <section class="market-section row">
+        <div class="large-image col-12 mb-4">
+          <img src="pictures/price.png" alt="Bitcoin historical price data" class="img-fluid">
+        </div>
+        <div class="content-container col-12">
+          <div class="info mb-4">
+            <h2>Information about Bitcoin Market</h2>
+            <p>Bitcoin, the pioneering cryptocurrency, has experienced a roller-coaster journey since its inception. Currently, the Bitcoin market is characterized by high volatility, with its price experiencing significant fluctuations influenced by market sentiment, regulatory news, and macroeconomic factors. Bitcoin reached an all-time high of nearly $69,000 in November 2021, but has also faced substantial crashes, such as the dramatic dip in 2018 and the steep decline in mid-2022, where it fell to around $20,000.</p>
+          </div>
+          <div class="price">
+            <h2>Today's Price</h2>
+            <a href="https://coinmarketcap.com/" class="external-link btn btn-link" target="_blank">Current price details about the market.</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

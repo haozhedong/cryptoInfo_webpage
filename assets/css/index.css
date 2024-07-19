@@ -1,0 +1,22 @@
+main {
+    padding: 150px;
+}
+
+.title {
+    font-size: 80px;
+	text-align: center;
+}
+
+.quotes {
+    display: block;
+    padding: 0 20px; 
+    font-style: italic; 
+    max-width: 600px; 
+    margin-left: 200px; 
+    margin-top: 20px;
+	position: relative;
+}
+
+.quotes p {
+    margin-bottom: 40px;
+}
